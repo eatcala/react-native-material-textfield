@@ -8,9 +8,10 @@ export default class OutlinedTextField extends TextField {
   static contentInset = {
     ...TextField.contentInset,
 
-    input: 16,
-
+    input: 10,
+    
     top: 0,
+    bottom:0,
     left: 12,
     right: 12,
   };
